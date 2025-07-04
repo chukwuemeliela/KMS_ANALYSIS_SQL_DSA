@@ -100,8 +100,8 @@ All bottom 10 customers are from the **Office Supplies** Product Category and 7 
 <pre>SELECT Top 1 Ship_Mode, sum(shipping_cost) as Shipping_Cost
 FROM kms
 GROUP BY Ship_Mode
-ORDER BY Shipping_Cost Desc
-KMS incurred the most shipping cost using **Delivery Truck**, with the sum of **51971.94**.</pre>
+ORDER BY Shipping_Cost Desc</pre>
+KMS incurred the most shipping cost using **Delivery Truck**, with the sum of **51971.94**.
 
 ### Most Valuable Customers and the Products They Purchase
 <pre>SELECT TOP 10
