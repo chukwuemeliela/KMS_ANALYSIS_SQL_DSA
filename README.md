@@ -44,6 +44,7 @@ purchase?
 11. Did the company appropriately spend shipping costs based on the order priority?
 
 ## SQL SCRIPTS AND INSIGHTS
+<a href=https://github.com/chukwuemeliela/KMS_ANALYSIS_SQL_DSA/blob/main/KMS_DSA%20PROJECT.sql>View SQL Files<a/>
 
 ### Product Category With the Highest Sales
 <pre>SELECT Top 1 Product_Category, sum(sales) as Highest_Sales
