@@ -51,6 +51,7 @@ FROM kms
 GROUP BY Product_Category
 ORDER BY Highest_Sales Desc</pre>
 The result shows that **Technology** has the highest sales of **5984248.50**.
+![Screenshot 2025-07-05 000447](https://github.com/user-attachments/assets/395a1302-3aa7-4ca3-be6a-81862413d32b)
 
 ### Top 3 Region by Sales
 <pre>SELECT Top 3 Region, sum(sales) as Total_Sales
