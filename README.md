@@ -52,7 +52,7 @@ FROM kms
 GROUP BY Product_Category
 ORDER BY Highest_Sales Desc</pre>
 The result shows that **Technology** has the highest sales of **5984248.50**.
-!<img width="221" height="49" alt="Image" src="https://github.com/user-attachments/assets/82922abd-58e7-4a14-8ed3-e667927298c0" />
+
 ### Top 3 Region by Sales
 <pre>SELECT Top 3 Region, sum(sales) as Total_Sales
 FROM kms
@@ -90,7 +90,7 @@ Total Sales of Appliances in Ontario is **202346.84**.
 FROM kms
 ORDER BY Sales</PRE>
 All bottom 10 customers are from the **Office Supplies** Product Category and 7 of them from the **Corporate** Customer Segment, with a customer **Adam Hart** making 2 very low purchases.
-**ADVICE**:
+#### ADVICE:
   - Offer multiple-item combos at a slight discount if bought together.
   - Run segment-specific ad campaigns for Office Suplies, such that Home Offices might have free shipping attached to it, Small Businesses bulk discounts or subscription options while Corporate customers may need procurement-level deals or invoice based purchases.
   - Check for friction in the purchase experience of Office Supplies, such as delivery delay, limited stock, etc.
