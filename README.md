@@ -24,7 +24,7 @@ SQL-based analysis of sales and customer data from Kultra Mega Stores  (KMS) to 
 
 - Created a database specific for the project.
   <pre>CREATE DATABASE KMS_PROJECT</pre>
-- Imported the CSV into the create database.
+- Imported the CSV into the database.
 - While importing, ensured that the datatypes matched the columns.
 - Data Cleaning for nulls
 
@@ -52,7 +52,7 @@ FROM kms
 GROUP BY Product_Category
 ORDER BY Highest_Sales Desc</pre>
 The result shows that **Technology** has the highest sales of **5984248.50**.
-
+!<img width="221" height="49" alt="Image" src="https://github.com/user-attachments/assets/82922abd-58e7-4a14-8ed3-e667927298c0" />
 ### Top 3 Region by Sales
 <pre>SELECT Top 3 Region, sum(sales) as Total_Sales
 FROM kms
